@@ -1,0 +1,12 @@
+=>color:
+    black- #000000
+    orange- #FD511A
+    ash- #585859
+    green- #21B573
+
+
+=>font:
+    Poppins- 400, 500, 700
+        font-family: 'Poppins', sans-serif;
+    Roboto- 400
+        font-family: 'Roboto', sans-serif;
