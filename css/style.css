@@ -10,35 +10,64 @@ body {
 }
 /* header styles */
 header {
-    background-color: #F0FFF0;
-    padding: 15px 0;
+  background-color: #f0fff0;
+  padding: 15px 0;
 }
-.c-nav {}
-.logo {}
+.c-nav {
+}
+.logo {
+}
 .menu ul li a {
-    color: #000000 !important;
-    padding: 0 24px !important;
+  color: #000000 !important;
+  padding: 0 24px !important;
 }
 .menu ul li a:hover {
-    color: #FD511A !important;
+  color: #fd511a !important;
 }
-.c-btn{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffff;
-    border-radius: 33px;
-    background-color: #21B573;
+.c-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 33px;
+  background-color: #21b573;
 }
-.btn-signIn{
-    margin-left: 10px;
-    padding: 12px 28px;
+.btn-signIn {
+  margin-left: 10px;
+  padding: 12px 28px;
 }
-.c-btn:hover{
-    color: #ffffff;
-    background-color: #FD511A;
+.c-btn:hover {
+  color: #ffffff;
+  background-color: #fd511a;
 }
-.c-btn:active{
-    color: #ffffff !important;
-    background-color: #FD511A !important;
+.c-btn:active {
+  color: #ffffff !important;
+  background-color: #fd511a !important;
+}
+
+/* banner styles */
+.banner {
+  padding-bottom: 65px;
+  background-color: #f0fff0;
+}
+.banner-sub-title {
+  color: #fd511a;
+}
+.banner-title {
+  margin: 10px 0 20px;
+  padding: 0 98px 0 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 70px;
+}
+.banner-title span {
+  color: #21b573;
+}
+.banner-dsc {
+  line-height: 36px;
+}
+.btn-get {
+  margin-top: 15px;
+  padding: 12px 36px;
 }
