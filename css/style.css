@@ -135,3 +135,7 @@ header {
   align-items: center;
 }
 
+/* testimonial styles */
+.testimony-content{
+  margin: 60px 0 0 0;
+}
