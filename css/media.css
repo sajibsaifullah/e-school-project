@@ -10,17 +10,17 @@
   .menu ul li a {
     padding: 0 10px 8px !important;
   }
-  
+
   /* banner styles */
   .banner {
     padding-bottom: 50px;
   }
-  .banner-text{
+  .banner-text {
     text-align: center;
   }
-  .banner-title{
-    margin: 10px 0 ;
-    padding: 0 ;
+  .banner-title {
+    margin: 10px 0;
+    padding: 0;
     font-size: 30px;
     line-height: 35px;
   }
@@ -28,9 +28,17 @@
     padding: 0;
     line-height: 28px;
   }
-  .banner-img{
+  .banner-img {
     margin-bottom: 30px;
     padding: 0;
+  }
+
+  /* feature styles */
+  .feature {
+    padding-bottom: 60px;
+  }
+  .single-feature {
+    margin-top: 30px;
   }
 }
 
@@ -46,12 +54,12 @@
   .menu ul li a {
     padding: 0 10px 8px !important;
   }
-  
+
   /* banner styles */
-  .banner-text{
+  .banner-text {
     text-align: center;
   }
-  .banner-title{
+  .banner-title {
     padding: 0 75px;
     font-size: 35px;
     line-height: 40px;
@@ -60,9 +68,17 @@
     padding: 0 50px;
     line-height: 30px;
   }
-  .banner-img{
+  .banner-img {
     margin-bottom: 30px;
     padding: 0 60px;
+  }
+
+  /* feature styles */
+  .feature {
+    padding-bottom: 60px;
+  }
+  .single-feature {
+    margin-top: 30px;
   }
 }
 
@@ -74,10 +90,10 @@
   }
 
   /* banner styles */
-  .banner-text{
+  .banner-text {
     text-align: center;
   }
-  .banner-title{
+  .banner-title {
     padding: 0 125px;
     font-size: 40px;
     line-height: 50px;
@@ -86,27 +102,36 @@
     padding: 0 125px;
     line-height: 30px;
   }
-  .banner-img{
+  .banner-img {
     margin-bottom: 30px;
     padding: 0 100px;
+  }
+
+  /* feature styles */
+  .feature {
+    padding-bottom: 80px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* banner styles */
-    .banner-title{
-        padding-right: 46px;
-    }
+  /* banner styles */
+  .banner-title {
+    padding-right: 46px;
+  }
 }
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    /* banner styles */
-    .banner-title{
-        padding-right: 46px;
-    }
+  /* banner styles */
+  .banner-title {
+    padding-right: 46px;
+  }
 }
 
 /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  /* feature styles */
+  .single-feature {
+    padding: 65px 0 60px;
+  }
 }
