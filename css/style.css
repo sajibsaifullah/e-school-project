@@ -13,10 +13,6 @@ header {
   background-color: #f0fff0;
   padding: 15px 0;
 }
-.c-nav {
-}
-.logo {
-}
 .menu ul li a {
   color: #000000 !important;
   padding: 0 24px !important;
@@ -73,7 +69,7 @@ header {
 }
 
 /* feature styles */
-.feature{
+.common-pb {
   padding-bottom: 100px;
 }
 .single-feature {
@@ -81,13 +77,13 @@ header {
   padding: 55px 0 50px;
   background-color: #f0fff0;
   border-radius: 10px;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
-.single-feature:hover{
+.single-feature:hover {
   background-color: #ffffff;
-  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
 }
-.feature-img{
+.feature-img {
   width: 80px;
   height: 83px;
 }
@@ -97,3 +93,45 @@ header {
   font-weight: 500;
   color: #000000;
 }
+
+/* courses styles */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+.course-card {
+  margin: 60px 0 0;
+  padding: 25px 20px 30px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.course-img img{
+  border-radius: 11px;
+}
+.course-text h2 {
+  margin-top: 20px;
+  font-size: 24px;;
+  font-weight: 500;
+  color: #000000;
+}
+.course-text p{
+  margin-top: 5px;
+  color: #000000;
+}
+.btn-buy-course{
+  margin: 20px 0 35px;
+  padding: 8px 28px;
+}
+.course-footer p{
+  font-weight: 500;
+}
+.course-footer img{
+  width: 24px;
+  height: 24px;
+}
+.left-footer, .right-footer{
+  align-items: center;
+}
+

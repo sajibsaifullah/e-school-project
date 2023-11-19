@@ -31,3 +31,7 @@ line-height
 feature
     mt              40              40              30
     pb              100             80              60
+
+section-title
+    h1              36              30              30
+    
