@@ -107,35 +107,62 @@ header {
   background-color: #ffffff;
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
 }
-.course-img img{
+.course-img img {
   border-radius: 11px;
 }
 .course-text h2 {
   margin-top: 20px;
-  font-size: 24px;;
+  font-size: 24px;
   font-weight: 500;
   color: #000000;
 }
-.course-text p{
+.course-text p {
   margin-top: 5px;
   color: #000000;
 }
-.btn-buy-course{
+.btn-buy-course {
   margin: 20px 0 35px;
   padding: 8px 28px;
 }
-.course-footer p{
+.course-footer p {
   font-weight: 500;
 }
-.course-footer img{
+.course-footer img {
   width: 24px;
   height: 24px;
 }
-.left-footer, .right-footer{
+.left-footer,
+.right-footer {
   align-items: center;
 }
 
 /* testimonial styles */
-.testimony-content{
+.testimony-content {
   margin: 60px 0 0 0;
+}
+
+/* footer-top styles */
+.footer-top {
+  padding: 55px 0 75px;
+  color: #ffffff;
+  background-color: #282531;
+  line-height: 30px;
+}
+.f-top-text-1 p {
+  padding: 0 130px 0 0;
+}
+.c-f-top-text ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* footer styles */
+footer {
+  padding-bottom: 30px;
+  color: #ffffff;
+  background-color: #282531;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
 }

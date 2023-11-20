@@ -68,6 +68,19 @@
   .testimony-content img {
     margin-bottom: 15px;
   }
+
+  /* footer-top styles */
+  .footer-top {
+    padding: 50px 0 60px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .f-top-text-1 p {
+    padding: 0;
+  }
+  .c-f-top-text{
+    margin-top: 30px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -128,6 +141,16 @@
   .testimony-content img {
     margin-bottom: 20px;
   }
+
+  /* footer-top styles */
+  .footer-top {
+    padding: 50px 0 60px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .f-top-text-1 p {
+    padding: 0 74px 30px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -175,6 +198,14 @@
   .testimony-content {
     margin: 40px 0 0 0;
   }
+
+  /* footer-top styles */
+  .footer-top {
+    text-align: center;
+  }
+  .f-top-text-1 p {
+    padding: 0 80px 30px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -196,12 +227,22 @@
     font-size: 14px;
     font-weight: 400;
   }
+
+  /* footer-top styles */
+  .f-top-text-1 p {
+    padding: 0 50px 0 0;
+  }
 }
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   /* banner styles */
   .banner-title {
     padding-right: 46px;
+  }
+
+  /* footer-top styles */
+  .f-top-text-1 p {
+    padding: 0 80px 0 0;
   }
 }
 
